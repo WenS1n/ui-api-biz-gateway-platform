@@ -4,7 +4,8 @@ import type { UploadFileParams } from '@/types/axios';
 import website from '@/config/website';
 
 export const Api = {
-  Login: '/blade-auth/oauth/token',
+  // Login: '/blade-auth/oauth/token',
+  Login: 'api-auth/oauth/user/login',
   RefreshToken: '/blade-auth/oauth/token',
   GetCaptcha: '/blade-auth/oauth/captcha',
   // 用户管理

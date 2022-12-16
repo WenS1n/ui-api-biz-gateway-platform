@@ -9,13 +9,13 @@
     @submit="onSubmit"
   >
     <template v-if="type == 'password'">
-      <t-form-item v-if="website.tenantMode" name="tenantId">
-        <t-input v-model="formData.tenantId" size="large" placeholder="请输入租户：000000">
-          <template #prefix-icon>
-            <t-icon name="usergroup" />
-          </template>
-        </t-input>
-      </t-form-item>
+<!--      <t-form-item v-if="website.tenantMode" name="tenantId">-->
+<!--        <t-input v-model="formData.tenantId" size="large" placeholder="请输入租户：000000">-->
+<!--          <template #prefix-icon>-->
+<!--            <t-icon name="usergroup" />-->
+<!--          </template>-->
+<!--        </t-input>-->
+<!--      </t-form-item>-->
 
       <t-form-item name="username">
         <t-input v-model="formData.username" size="large" placeholder="请输入账号：admin">

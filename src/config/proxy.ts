@@ -3,8 +3,9 @@ export default {
   development: {
     // 开发环境接口请求
     apiUrl: '',
-    urlPrefix: '/api',
-    proxy: [['/api', 'https://saber.bladex.vip', false]],
+    urlPrefix: '',
+    // proxy: [['/api', 'https://saber.bladex.vip', false]],
+    proxy: [['/api', 'http://192.168.3.152:9999', false]],
     // 开发环境 cdn 路径
     cdn: '',
   },
